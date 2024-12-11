@@ -1,0 +1,22 @@
+@layer utilities {
+  .perspective {
+    perspective: 1000px;
+  }
+
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+
+  .will-change-transform {
+    will-change: transform;
+  }
+
+  .transition-transform-gpu {
+    transition-property: transform;
+    transform: translate3d(0, 0, 0);
+  }
+}

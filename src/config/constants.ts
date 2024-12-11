@@ -1,0 +1,1 @@
+export const SPLINE_SCENE_URL = 'https://prod.spline.design/neHJfXk12aXBIPIA/scene.splinecode';
